@@ -1,0 +1,41 @@
+#formContainer{
+  width: 60vw;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.formGroup > label {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.formGroup > input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gainsboro;
+  padding-top: 20px;
+  
+}
+
+.btncontainer {
+
+display: flex;
+justify-content: center;
+padding: 5px;
+  
+}
+
+.btncontainer > input {
+  
+  padding: 5px 20px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+
+}
